@@ -1,0 +1,38 @@
+
+
+body {
+  background-color: white;
+  padding: 1em;
+}
+
+p {
+ 
+ font-family: whitman-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.5em; /* 1em = 12pt = 16px = 100%. So 0.5em = 6pt... And 1.5em = 18pt */
+  line-height: 1.25em; /* so 1.25em = 15pt */
+  color: blue;
+  margin-bottom: 1.3em;
+}
+
+
+/* Changes into one column when 2 x 200px columns are impossible */
+
+article {
+  -webkit-columns: 3 400px;   
+     -moz-columns: 3 400px;
+          columns: 3 400px;
+
+  -webkit-column-gap: 4em;
+     -moz-column-gap: 4em;
+          column-gap: 4em;
+}  
+
+img {
+	width: 100vh;
+	position: absolute;
+	z-index: -1;
+  background-repeat: no-repeat;
+  size: cover;
+}

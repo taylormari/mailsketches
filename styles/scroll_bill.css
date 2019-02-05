@@ -1,0 +1,28 @@
+body {
+  padding: 25px;
+  color: unset;
+}
+
+#drag_a_bill {
+ background: none;
+  width: 320px;
+  height: 155px;
+  line-height: 200px;
+  text-align: center;
+  cursor: move;
+  z-index: 100;
+}
+
+
+
+
+#bill_image_scroll {
+  overflow:auto;
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+}
+
+::-webkit-scrollbar {
+    color: yellow;
+}

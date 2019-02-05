@@ -1,0 +1,44 @@
+body, html {
+  outline:    0.0rem solid hsla(1000, 0%, 0%, 1) ;
+  height:		   100%;
+  margin:          0;
+  /*box-sizing:      unset;
+  padding:         unset;
+  font-size:       unset;
+  color:           unset;
+  text-decoration: unset;*/
+}
+
+#full_image {
+
+  position: absolute;
+  width: 100vw;
+	background-repeat: no-repeat;
+  size: cover;
+  z-index: -3
+}
+#envelope {
+  position: absolute; 
+  left: 200px; 
+  top: 300px;
+  width: 50px;
+}
+
+.envelope_hover a p {
+  display: none;
+}
+
+.envelope_hover a:hover p {
+  display: block;
+  position: absolute;
+  left: 290px;
+  top: 89px;
+}
+
+.sendbill {
+  z-index: 10;
+  color: white;
+  margin-left: 60%;
+}
+
+
